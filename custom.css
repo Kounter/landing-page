@@ -2160,3 +2160,361 @@
   .reqdemo:hover{
     background-color: #209251;
   }
+
+  .bigCircle{
+    width:880px;
+     height:757px
+  }
+
+  .upcomingSessions{
+    width:900px;
+    height:591px;
+  }
+
+  .ellipse{
+    width:150px;
+    height:150px;
+  }
+  
+  .marginTop{
+    margin-top: 350px;
+  }
+
+  .steps1{
+    position:absolute;
+     left:32rem ;
+    top:160px;
+  }
+
+  .steps2{
+    position:absolute; left:32rem ;top:450px;
+  }
+
+  .steps3{
+    position:absolute; left:32rem ;top:700px
+  }
+
+  .marginOfContent{
+    margin-left:19rem;
+  }
+
+  .page3{
+    margin-left: 25rem; margin-right: 25rem;
+  }
+  .help{
+    width: 25.25rem;
+  }
+
+  .tree{
+    width:381.2px;
+    height:280px
+  }
+
+  .join{
+    width: 20.063rem;font-size: 2.25rem;
+  }
+
+  .button{
+    width: 8rem; height:3rem;
+  }
+  .footerwidth{
+    width: 5.875rem;
+  }
+  
+  .font{
+    font-size:2.5rem; 
+  }
+
+  .width{
+    width: 34rem;
+  }
+  @media only screen and (max-width:559px){
+    .font{
+      font-size:1.5rem; 
+    }
+    .width{
+      width: 25rem;
+    }
+    .nomar{
+      margin-left: 2px;
+    }
+  }
+
+  @media only screen and (max-width:394){
+    .font{
+      font-size:1.2rem; 
+    }
+    
+  }
+
+  @media only screen and (max-width:1179px){
+    .footerwidth{
+      width:30px;
+    }
+  }
+  .noLeft{
+    margin-left: 4rem;
+  }
+
+  @media only screen and (max-width:940px){
+    .footerwidth{
+      width:20px;
+    }
+    .noview{
+      width:0;
+      display: none;
+    }
+    .marginContact{
+      margin-right: 1px;
+    }
+    .noLeft{
+      margin-left: 0;;
+    }
+  }
+
+  @media only screen and (max-width:577px){
+    
+    .hide{
+      width:0;
+      display: none;
+    }
+    
+  }
+
+
+  @media only screen and (max-width:753px){
+    .footerwidth{
+      width:20px;
+    }
+    .noview{
+      width:0;
+      display: none;
+    }
+  }
+
+  @media only screen and (max-width:518px){
+    .tree{
+      width:341.2px;
+      height:240px
+    }
+    .join{
+      width: 18rem;font-size: 1.8rem;
+    }
+    .button{
+      width: 6rem; height:2rem;
+    }
+    .newMt{
+      margin-top: 70px;
+    }
+  }
+
+  @media only screen and (max-width:378px){
+    .tree{
+      width:301.2px;
+      height:2-0px
+    }
+  }
+
+  @media only screen and (max-width:432px){
+    .help{
+      width: 20.25rem;
+    }
+  }
+
+  @media only screen and (max-width:1449px){
+    .page3{
+      margin-left: 15rem; margin-right: 15rem;
+    }
+  }
+
+  @media only screen and (max-width:1130px){
+    .page3{
+      margin-left: 10rem; margin-right: 10rem;
+    }
+  }
+
+  @media only screen and (max-width:970px){
+    .page3{
+      margin-left: 5rem; margin-right: 5rem;
+    }
+    .wrap{
+      flex-direction:column;
+    }
+    .wrap-reverse{
+      flex-direction:column-reverse;
+    }
+    .centerWhenNeed{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  @media only screen and (max-width:1623px){
+    .steps1{
+      position:absolute;
+       left:22rem ;
+      top:160px;
+    }
+  
+    .steps2{
+      position:absolute; left:22rem ;top:450px;
+    }
+  
+    .steps3{
+      position:absolute; left:22rem ;top:700px
+    }
+  }
+
+  @media only screen and (max-width:1292px){
+    .steps1{
+      position:absolute; left:12rem ;top:160px;
+    }
+  
+    .steps2{
+      position:absolute; left:12rem ;top:450px;
+    }
+  
+    .steps3{
+      position:absolute; left:12rem ;top:700px
+    }
+  }
+
+  @media only screen and (max-width:961px){
+    .steps1{
+      position:absolute; left:7rem ;top:160px;
+    }
+  
+    .steps2{
+      position:absolute; left:7rem ;top:450px;
+    }
+  
+    .steps3{
+      position:absolute; left:7rem ;top:700px
+    }
+  }
+
+  @media only screen and (max-width:781px){
+    .noview{
+      width: 0;
+      height: 0;
+    }
+    .noLeftMargin{
+      margin-left: 0;
+    }
+  }
+
+  @media only screen and (max-width:677px){
+    .steps1{
+      display: hidden;
+    }
+  
+    .steps2{
+      display: hidden;    }
+  
+    .steps3{
+      display: hidden;    }
+  }
+
+  @media only screen and (max-width: 1688px) {
+    .bigCircle{
+      width:780px;
+       height:657px
+    }
+  
+    .upcomingSessions{
+      width:800px;
+      height:491px;
+    }
+  
+    .ellipse{
+      width:120px;
+      height:120px;
+    }
+    .marginTop{
+      margin-top: 250px;
+    }
+  }
+
+  @media only screen and (max-width: 1544px) {
+    .bigCircle{
+      width:720px;
+       height:597px
+    }
+  
+    .upcomingSessions{
+      width:750px;
+      height:421px;
+    }
+  
+    .ellipse{
+      width:120px;
+      height:120px;
+    }
+    .marginTop{
+      margin-top: 200px;
+    }
+  }
+
+  @media only screen and (max-width: 1420px) {
+    .bigCircle{
+      width:670px;
+       height:527px
+    }
+  
+    .upcomingSessions{
+      width:700px;
+      height:401px;
+    }
+  
+    .ellipse{
+      width:100px;
+      height:100px;
+    }
+    .marginTop{
+      margin-top: 130px;
+    }
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .bigCircle{
+      width:420px;
+       height:490px
+    }
+  
+    .upcomingSessions{
+      width:450px;
+      height:351px;
+    }
+  
+    .ellipse{
+      width:0px;
+      height:0px;
+    }
+  }
+
+  @media only screen and (max-width: 1324px) {
+    .bigCircle{
+      width:0px;
+       height:0px
+    }
+  
+    .upcomingSessions{
+      width:0px;
+      height:0px;
+    }
+  
+    .ellipse{
+      width:0px;
+      height:0px;
+    }
+
+    .page1{
+      justify-content: center;
+    }
+
+    .no-margin{
+      margin-right:0;
+      margin-left: 0;
+    }
+  }
