@@ -2228,6 +2228,13 @@
   .width{
     width: 34rem;
   }
+  
+  @media only screen and (max-width:589px){
+    .noInput{
+      display: none;
+    }
+  }
+
   @media only screen and (max-width:559px){
     .font{
       font-size:1.5rem; 
@@ -2243,7 +2250,14 @@
     }
   }
 
-  @media only screen and (max-width:394){
+  @media only screen and (max-width:394px){
+    .font{
+      font-size:1rem; 
+    }
+    
+  }
+
+  @media only screen and (max-width:590px){
     .font{
       font-size:1rem; 
     }
@@ -2304,7 +2318,7 @@
       width: 18rem;font-size: 1.8rem;
     }
     .button{
-      width: 6rem; height:2rem;
+      width: 7rem; height:2rem;
     }
     .newMt{
       margin-top: 70px;
