@@ -467,6 +467,10 @@ input[type="number"] {
   margin-bottom: 1.5rem;
 }
 
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
 .mb-5 {
   margin-bottom: 5rem;
 }
@@ -577,15 +581,26 @@ input[type="number"] {
 
 /* media queries */
 
-@media only screen and (max-width: 1360px){
+@media only screen and (max-width: 1366px), (max-device-width: 1366px) {
+
+  .hero-section-wrapper {
+    background-color: white;
+    background-image: url('./Images/bigCircle.svg');
+    background-position: 40% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    position: relative;
+    height: 100vh;
+  }
 
   .hero-section-ellipse {
-    left: -2%;
+    left: 3%;
     top: -2%;
   }
 
   .hero-section-image {
-    width: 34rem;
+    width: 42rem;
   }
 
   .how-it-works-section__content {
@@ -601,7 +616,8 @@ input[type="number"] {
   }
 }
 
-@media only screen and (max-width: 1024px){
+@media only screen and (max-width: 1280px), (max-device-width: 1280px) {
+
   html {
     font-size: 14px;
   }
@@ -633,14 +649,18 @@ input[type="number"] {
   }
 
   .hero-section-ellipse {
-    width: 5rem;
-    left: 1%;
-    top: 1%;
+    width: 6rem;
+    left: -3%;
+    top: 6%;
   }
 
   .how-it-works-section__content {
     margin-right: 16rem;
     margin-left: 16rem;
+  }
+
+  .join-10fold-section__text {
+    height: auto;
   }
 
   .footer-ml-1024px {
@@ -657,11 +677,7 @@ input[type="number"] {
   
 }
 
-/* @media only screen and (max-width: 768px){
-
-} */
-
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 480px), (max-device-width: 480px) {
   .flex-xs-row {
     flex-direction: row;
   }
@@ -781,7 +797,6 @@ input[type="number"] {
   .join-10fold-section__text {
     margin-left: 2.5rem;
     margin-right: 2.5rem;
-    height: auto;
   }
 
   .footer-mobile-number {
@@ -790,10 +805,23 @@ input[type="number"] {
   
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 420px), (max-device-width: 420px) {
+
+  /* xs css */
 
   .no-view-400px {
     display: none;
+  }
+
+  .hero-section-wrapper {
+    background-color: white;
+    background-image: url('./Images/bigCircle.svg');
+    background-position: 50% 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    position: relative;
+    height: 100vh;
   }
 
   .how-it-works-section__sub-heading, 
@@ -820,4 +848,12 @@ input[type="number"] {
   .sub-headline {
     text-align: center;
   }
+}
+
+@media only screen and (max-width: 320px), (max-device-width: 320px) {
+
+  html {
+    font-size: 12px;
+  }
+
 }
