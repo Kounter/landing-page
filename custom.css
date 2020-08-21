@@ -858,6 +858,10 @@ input[type="number"] {
     width: auto;
   }
 
+  .headline {
+    font-size: 2.5rem;
+  }
+
   .hero-section-wrapper {
     background-color: white;
     background-image: url('./Images/bigCircle.svg');
