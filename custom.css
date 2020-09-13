@@ -865,7 +865,7 @@ input[type="number"] {
   .hero-section-wrapper {
     background-color: white;
     background-image: url('./Images/bigCircle.svg');
-    background-position: 50% 110%;
+    background-position: 50% 200%;
     background-size: contain;
     background-repeat: no-repeat;
     background-attachment: scroll;
