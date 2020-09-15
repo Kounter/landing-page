@@ -94,7 +94,7 @@ body {
 .hero-section-wrapper {
   background-color: white;
   background-image: url('./Images/bigCircle.svg');
-  background-position: 100% 100%;
+  background-position: 100% 40%;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -611,6 +611,19 @@ input[type="number"] {
 }
 
 /* media queries */
+
+@media only screen and (max-height: 680px), (max-device-height: 680px) {
+  .hero-section-wrapper {
+    padding-top: 3.5rem;
+  }
+}
+
+
+@media only screen and (max-height: 544px), (max-device-height: 544px) {
+  .hero-section-wrapper {
+    padding-top: 6rem;
+  }
+}
 
 @media only screen and (max-width: 1366px), (max-device-width: 1366px) {
 
