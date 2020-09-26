@@ -29,3 +29,11 @@ body {
         padding: 8rem 4rem 0rem 4rem;
     }
 }
+
+@media (min-height: 680px) {
+    .stick-to-bottom {
+        bottom: 0;
+        position: absolute;
+        width: 100%;
+    }
+}
