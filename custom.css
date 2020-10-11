@@ -143,36 +143,43 @@ body {
   height: 1.625rem
 }
 
-.demo-video-section {
+.demo-banner {
   flex-direction: row;
-  height: 40rem;
-  background-image: linear-gradient(to right, #f3f4f1 , #e7e5ff);
-  /* background-color: #e7e5ff; */
-  justify-content: space-around;
+  height: 15rem;
+  background-color: #2d99d0;
 }
 
-.video-iframe {
-  align-self: center;
+.demo-content {
+  flex-direction: row;
+  position: relative;
+  justify-content: center;
+  padding: 0px 3rem;
+  align-items: center;
+  margin: 0px auto;
+  width: 100%;
+  max-width: 1280px;
 }
 
-.demo-video-helper-text {
-  align-self: center;
-}
-
-.pointing-finger {
-  width: 2.5rem;
-  color: #FBBD03;
+.demo-video-class {
+  display: inline-block;
+  position: relative;
+  height: 80%;
+  width: 30%;
 }
 
 .watch-demo-p {
-  font-size: 2.5rem; 
-  margin: 0 0 0.8rem 0; 
+  font-size: 20px; 
+  margin: auto 4rem; 
   font-weight: 700;
+  color: white;
+  padding-bottom: 0.5rem;
 }
 
-.five-min-p {
-  font-size: 1rem; 
-  margin: 0;
+.five-mins-p {
+  color: white;
+  font-weight: 500;
+  margin: auto 4rem; 
+  font-size: 16px; 
 }
 
 .how-it-works-section__heading, .use-cases-section__heading {
@@ -759,27 +766,6 @@ input[type="number"] {
   
 }
 
-@media only screen and (max-width: 1080px), (max-device-width: 1080px) {
-
-  .demo-video-section {
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .demo-video-helper-text {
-    margin-bottom: 2rem;
-  }
-
-  .five-min-p {
-    align-items: center;
-  }
-
-  .no-view-1080px {
-    display: none;
-  }
-
-}
-
 @media only screen and (max-width: 480px), (max-device-width: 480px) {
   .flex-xs-row {
     flex-direction: row;
@@ -872,13 +858,23 @@ input[type="number"] {
     color: white;
   }
 
-  .demo-video-section {
-    height: 30rem;
+  .demo-banner {
+    height: 20rem;
   }
 
-  iframe {
-    width: 355px;
-    height: 200px;
+  .demo-content {
+    flex-direction: column;
+    padding: 0px 2rem;
+  }
+
+  .demo-video-class  {
+    width: 95%;
+    height: 64%;
+  }
+
+  .watch-demo-p {
+    font-size: 20px;
+    padding-bottom: 1.2rem;
   }
 
   .how-it-works-section__content {
@@ -957,6 +953,15 @@ input[type="number"] {
     margin-right: 1rem;
   }
 
+  .demo-content {
+    flex-direction: column;
+    padding: 0px 1rem;
+  }
+
+  .watch-demo-p {
+    font-size: 16px;
+  }
+
   .how-it-works-section__sub-heading, 
   .how-it-works-section__description {
     width: auto;
@@ -989,9 +994,19 @@ input[type="number"] {
     font-size: 12px;
   }
 
-  iframe {
-    width: 266px;
-    height: 150px;
+  .demo-content {
+    flex-direction: column;
+    padding: 0px 0px;
+  }
+
+  .demo-video-class  {
+    width: 80%;
+    height: 60%;
+  }
+
+  .watch-demo-p {
+    font-size: 12px;
+    padding-bottom: 1.6rem;
   }
 
 }
