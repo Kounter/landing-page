@@ -1,0 +1,131 @@
+// main landing
+#main-landing {
+  background-image: url('../../src/assets/ending_section_bg.png');
+  //   background-position: center;
+  background-size: contain;
+}
+
+/* integrations */
+#integrations-section {
+  background: linear-gradient(
+      90deg,
+      rgba(184, 221, 255, 0.8) 11.91%,
+      rgba(220, 237, 245, 0.8) 45.15%,
+      rgba(223, 243, 236, 0.8) 80.44%
+    ),
+    url('../../src/assets/integrations_bg.png');
+  background-position: center;
+  background-size: cover;
+}
+
+/* how we help */
+#how-we-help-container {
+  #help-info-card-1:hover {
+    .without-hover-content {
+      z-index: -1;
+    }
+
+    .with-hover-content {
+      z-index: 1;
+      visibility: visible;
+    }
+
+    .know-more-btn-1 {
+      z-index: 1;
+      background: #0155e1;
+      color: white;
+    }
+  }
+
+  .with-hover-content {
+    z-index: -1;
+    visibility: hidden;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+  }
+
+  #help-info-card-2:hover {
+    .without-hover-content-2 {
+      z-index: -1;
+    }
+
+    .with-hover-content-2 {
+      z-index: 1;
+      visibility: visible;
+    }
+
+    .know-more-btn-2 {
+      z-index: 1;
+      background: #0155e1;
+      color: white;
+    }
+  }
+
+  .with-hover-content-2 {
+    z-index: -1;
+    visibility: hidden;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+  }
+}
+
+/* practice section */
+#practice-section {
+  background: linear-gradient(
+      90deg,
+      rgba(184, 221, 255, 0.8) 11.91%,
+      rgba(220, 237, 245, 0.8) 45.15%,
+      rgba(223, 243, 236, 0.8) 80.44%
+    ),
+    url('../../src/assets/stethoscope_and_laptop.png');
+  background-position: center;
+  background-size: cover;
+}
+
+#testimonials-container {
+  background-image: url('../../src/assets/testimonial_bg.png');
+  //   background-position: center;
+  background-size: cover;
+}
+
+// pricing section
+#pricing-section-1 {
+  background: linear-gradient(
+      90deg,
+      rgba(184, 221, 255, 0.8) 11.91%,
+      rgba(220, 237, 245, 0.8) 45.15%,
+      rgba(223, 243, 236, 0.8) 80.44%
+    ),
+    url('../../src/assets/pricing_bg.png');
+  background-position: center;
+  background-size: cover;
+}
+
+#ending-section-container {
+  background-image: url('../../src/assets/ending_section_bg.png');
+  //   background-position: center;
+  background-size: cover;
+}
+
+#footer-container {
+  position: relative;
+
+  z-index: 2;
+  height: 7.5rem;
+  background: #edf4fa;
+  width: 100%;
+
+  .footer-section {
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 3rem;
+    width: 98%;
+  }
+}
+/* Media Queries */
+
+@media (max-width: 768px) {
+  #footer-container {
+    height: 9rem;
+  }
+}
