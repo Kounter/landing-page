@@ -1,0 +1,27 @@
+#feature-slider {
+  .slick-next,
+  .slick-prev {
+    width: 50px !important;
+  }
+}
+
+#testimonials-slider {
+  .slick-next {
+    // left: -101px;
+    right: -60px;
+    width: 50px !important;
+  }
+  .slick-prev {
+    left: -101px;
+    width: 50px !important;
+  }
+}
+
+// hard coded css for manipulating third party css
+.slick-prev:before {
+  content: '';
+}
+
+.slick-next:before {
+  content: '';
+}
