@@ -37,7 +37,6 @@ jobs:
         CI: false
         NODE_ENV: production
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - uses: actions/checkout@v2
     - name: Deploy to S3
       uses: jakejarvis/s3-sync-action@master
       with:
