@@ -5,6 +5,15 @@
   background-size: contain;
 }
 
+#demo-section-container {
+  background: linear-gradient(
+    90deg,
+    #dff3ec 12.5%,
+    #edf4fa 76.01%,
+    #f8fcff 103.09%
+  );
+}
+
 /* integrations */
 #integrations-section {
   background: linear-gradient(
