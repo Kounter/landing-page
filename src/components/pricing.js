@@ -48,12 +48,14 @@ const PricingSection = (props) => {
                 </div>
 
                 <div className="flex items-center justify-center">
-                  <button
+                  <a
+                    href="https://app.10fold.in/"
+                    target="_blank"
                     className="absolute bottom-0 px-10 py-4 rounded-full shadow-md text-xl bg-core-blue text-white font-bold"
                     style={{ bottom: '-30px' }}
                   >
                     Sign up
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -81,12 +83,14 @@ const PricingSection = (props) => {
                 </div>
 
                 <div className="flex items-center justify-center">
-                  <button
+                  <a
+                    href="https://app.10fold.in/"
+                    target="_blank"
                     className="absolute bottom-0 px-10 py-4 rounded-full shadow-md text-xl bg-core-blue text-white font-bold"
                     style={{ bottom: '-30px' }}
                   >
                     Sign up
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -115,12 +119,14 @@ const PricingSection = (props) => {
                 </div>
 
                 <div className="flex items-center justify-center">
-                  <button
+                  <a
+                    href="https://app.10fold.in/"
+                    target="_blank"
                     className="absolute bottom-0 px-10 py-4 rounded-full shadow-md text-xl bg-core-blue text-white font-bold"
                     style={{ bottom: '-30px' }}
                   >
                     Sign up
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>

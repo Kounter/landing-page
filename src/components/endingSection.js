@@ -22,9 +22,13 @@ const EndingSection = (props) => {
         </p>
       </div>
       <div className="mt-10">
-        <button className="px-8 py-4 text-xl rounded-full bg-core-blue text-white font-bold">
+        <a
+          href="https://app.10fold.in/"
+          target="_blank"
+          className="px-8 py-4 text-xl rounded-full bg-core-blue text-white font-bold"
+        >
           Sign up
-        </button>
+        </a>
       </div>
     </div>
   );

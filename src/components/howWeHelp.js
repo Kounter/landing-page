@@ -20,7 +20,7 @@ const HowWeHelp = (props) => {
 
       <div className="mt-10 ">
         <div className=" w-full flex flex-wrap items-center justify-between">
-          <div className="w-full lg:w-1/2 px-5 lg:px-20 xxl:px-40">
+          <div className="w-full lg:w-1/2 px-5 lg:px-20 xxl:px-24 xxxl:px-40">
             <div
               id="help-info-card-1"
               className=" relative w-full h-128 shadow-lg rounded-lg border-solid border-2 border-gray-300 "
@@ -54,7 +54,7 @@ const HowWeHelp = (props) => {
             </div>
           </div>
 
-          <div className="w-full lg:w-1/2 px-5 lg:px-20 xxl:px-40">
+          <div className="w-full lg:w-1/2 px-5 lg:px-20 xxl:px-24 xxxl:px-40">
             <div
               id="help-info-card-2"
               className=" relative w-full  h-128 shadow-lg rounded-lg border-solid border-2 border-gray-300"

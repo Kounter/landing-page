@@ -15,10 +15,17 @@ const Header = (props) => {
               Pricing
             </div>
             <div className="ml-10 hover:text-core-blue cursor-pointer">
-              Demo
+              <a
+                href="https://shubham.10fold.in/appointment/27"
+                target="_blank"
+              >
+                Demo
+              </a>
             </div>
             <div className="ml-10 hover:text-core-blue cursor-pointer">
-              Login
+              <a href="https://app.10fold.in/" target="_blank">
+                Demo
+              </a>
             </div>
           </div>
         </div>
