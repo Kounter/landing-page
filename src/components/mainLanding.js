@@ -7,7 +7,13 @@ const MainLanding = (props) => {
   return (
     <div
       id="main-landing"
-      className="py-20 lg:py-32 xxxl:py-48 4xl:py-56 5xl:py-64 6xl:py-84 px-4 sm:px-10 lg:px-20 xxl:px-40"
+      className="py-20 
+      lg:pt-12 lg:pb-40 
+      xxxl:pt-32 xxxl:pb-56
+      4xl:pt-48 4xl:pb-64 
+      5xl:pt-56 5xl:pb-72 
+      6xl:pt-72 6xl:pb-96
+      px-4 sm:px-10 lg:px-20 xxl:px-40"
     >
       <div className="flex items-center">
         <div>

@@ -11,9 +11,12 @@ const Header = (props) => {
           </div>
           <div className="flex items-center text-xl font-bold px-10">
             <div className="hover:text-core-blue cursor-pointer">Home</div>
-            <div className="ml-10 hover:text-core-blue cursor-pointer">
+            <a
+              className="ml-10 hover:text-core-blue cursor-pointer"
+              href="#pricing-section-container"
+            >
               Pricing
-            </div>
+            </a>
             <div className="ml-10 hover:text-core-blue cursor-pointer">
               <a
                 href="https://shubham.10fold.in/appointment/27"
