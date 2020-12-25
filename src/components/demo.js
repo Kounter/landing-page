@@ -4,7 +4,7 @@ import BlueLineSVG from 'assets/blue_line.svg';
 const DemoSection = (props) => {
   return (
     <div id="demo-section-container" className="py-20">
-      <div class="container mx-auto flex px-5 py-10 md:flex-row flex-col items-center">
+      <div class="container mx-auto flex px-5 xl:px-24 py-10 md:flex-row flex-col items-center">
         <div class="lg:max-w-lg lg:w-1/2 md:w-1/2 w-5/6 mb-10 md:mb-0">
           <div class="video-iframe">
             <iframe
