@@ -27,7 +27,7 @@ const Header = (props) => {
             </div>
             <div className="ml-10 hover:text-core-blue cursor-pointer">
               <a href="https://app.10fold.in/" target="_blank">
-                Demo
+                Login
               </a>
             </div>
           </div>
